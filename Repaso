@@ -1,0 +1,64 @@
+¿Qué sucede si intentas acceder a arr[-1] en Java?
+IndexOutOfBoundsException
+
+En un arreglo de 10 elementos, ¿qué índice no es válido? es 10
+
+Sea "sumarMatrices" un método que suma 2 matrices de las mismas dimensiones. ¿Cuál sería el encabezado adecuado para el mismo si recibe las 
+2 matrices sumandos y DEVUELVE la matriz resultante.    int[][] sumarMatrices(int x[][], int y[][])
+
+Tope del ciclo  n
+Acumulador   suma
+contador    cont
+
+determinante d ela matriz diagonal  
+int d=1;
+
+for (i=0;i<4;i++) {
+
+     for(j=0;j<4;j++){
+
+       if (i==j)
+
+        d*=A[i][j];      
+
+     }
+
+ }
+
+¿Cuál es la finalidad del siguiente código, para cualquier arreglo a?  calcular e imprimir el promedio de elemntos del arreglo
+
+sum=0;
+
+for(int i=1;i<a.length;i++)
+
+{
+
+   sum=sum+a[i];
+
+}
+
+System.out.println((float)sum/a.length);
+
+
+Declaración de un arreglo de enteros de 10 posiciones
+
+int a[]=new int [10];
+
+Al hacer referencia a un elemento de matriz, se coloca primero el nombre, luego el renglón entre corchetes y junto la columna entre corchetes 
+= verdadero
+
+Si el tipo del método es void, no se requiere la palabra return  dentro del cuerpo del método
+= Verdadero
+
+Sea el arreglo unidimensional
+int x[]={5,-3,9,2,1,7}; por lo tanto:
+x[1]=5   = falso
+
+¿Cuál es la posición del elemento si su índice es 3 en un arreglo de 5 elementos?
+= Cuarto elemento (índice 3)
+
+Si tienes un arreglo llamado arr, ¿cómo accedes al último elemento?
+= arr[arr.length - 1]
+
+Para recorrer todo un arreglo, ¿qué conjunto de condiciones se usa comúnmente en un ciclo for?
+= i = 0; i < arr.length; i++
